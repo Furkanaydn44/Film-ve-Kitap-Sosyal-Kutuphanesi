@@ -1,0 +1,13 @@
+<div className="relative min-h-screen w-full bg-gray-900 overflow-hidden">
+      {/* Video arka plan */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="../src/assets/kedi.mp4" type="video/mp4" />
+        {/* Video yüklenemezse gösterilecek */}
+        Tarayıcınız video etiketini desteklemiyor.
+      </video>
