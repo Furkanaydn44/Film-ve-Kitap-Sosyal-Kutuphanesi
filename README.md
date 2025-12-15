@@ -2,8 +2,6 @@
 
 Bu proje, kullanıcıların okudukları kitapları ve izledikleri filmleri/dizileri kaydedebileceği, inceleme yazıp puanlayabileceği ve diğer kullanıcılarla etkileşime geçebileceği web tabanlı bir sosyal platformdur.
 
-![Proje Ekran Görüntüsü](https://via.placeholder.com/800x400?text=Proje+Ekran+Goruntusu+Eklenecek)
-*(Buraya projenin arayüzünden güzel bir ekran görüntüsü ekleyebilirsin)*
 
 ## 🚀 Proje Hakkında
 
@@ -15,11 +13,10 @@ Kullanıcılar kendi dijital kütüphanelerini oluşturabilir, içeriklere yorum
 * **Dil:** Node.js
 * **Framework:** Express.js
 * **Veritabanı:** MySQL
-* **Diğer:** (Buraya kullandıysan JWT, bcrypt, Sequelize vb. ekleyebilirsin)
 
 ### Frontend (İstemci Tarafı)
 * **Kütüphane:** React (Vite ile)
-* **Stil:** CSS / (Varsa Tailwind veya Bootstrap)
+* **Stil:** CSS 
 * **HTTP İstekleri:** Axios / Fetch
 
 ## 📂 Proje Yapısı
