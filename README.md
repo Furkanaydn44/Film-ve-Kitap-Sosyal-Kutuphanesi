@@ -27,6 +27,8 @@ Proje iki ana klasörden oluşur:
 
 ## ⚙️ Kurulum ve Çalıştırma
 
+Veritabanı Kurulumu: backend/database.sql dosyasındaki SQL komutlarını MySQL veritabanınızda çalıştırarak gerekli tabloları oluşturun.
+
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 ### 1. Projeyi Klonlayın
