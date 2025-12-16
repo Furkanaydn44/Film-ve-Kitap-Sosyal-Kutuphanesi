@@ -70,7 +70,8 @@ npm run dev
 ```
 Bilgi: Terminalde size verilen http://localhost:5173 (veya benzeri) linke tıklayarak projeyi tarayıcınızda görüntüleyebilirsiniz.
 
-✨ Özellikler
+✨ Özellikler:
+
 [x] Kullanıcı Kayıt ve Giriş
 
 [x] Kitap/Film Arama ve Ekleme
