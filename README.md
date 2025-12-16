@@ -37,5 +37,41 @@ Projeyi yerel makinenizde hatasız çalıştırmak için veritabanını kurmalı
 ```bash
 git clone [https://github.com/Furkanaydn44/Film-ve-Kitap-Sosyal-Kutuphanesi.git](https://github.com/Furkanaydn44/Film-ve-Kitap-Sosyal-Kutuphanesi.git)
 cd Film-ve-Kitap-Sosyal-Kutuphanesi
+3. Backend Kurulumu ve Çalıştırma (1. Terminal)
+Sunucuyu başlatmak için proje ana dizinindeyken şu komutları sırasıyla uygulayın:
 
+Bash
 
+cd backend
+npm install
+Gerekli paketler yüklendikten sonra sunucuyu geliştirici modunda başlatın:
+
+Bash
+
+npm run dev
+Önemli Not: Backend sunucusu çalışmaya başladığında terminali kapatmayın. Sunucu bu pencerede çalışmaya devam etmelidir.
+
+4. Frontend Kurulumu ve Çalıştırma (2. Terminal)
+Backend çalışırken, yeni bir terminal penceresi açın ve proje ana dizinine gelerek şu adımları izleyin:
+
+Bash
+
+cd client
+npm install
+Arayüzü başlatmak için:
+
+Bash
+
+npm run dev
+Bilgi: Terminalde size verilen http://localhost:5173 (veya benzeri) linke tıklayarak projeyi tarayıcınızda görüntüleyebilirsiniz.
+
+✨ Özellikler
+[x] Kullanıcı Kayıt ve Giriş
+
+[x] Kitap/Film Arama ve Ekleme
+
+[x] Kütüphane Yönetimi
+
+[x] Puanlama ve Yorumlar
+
+[ ] Sosyal Akış
