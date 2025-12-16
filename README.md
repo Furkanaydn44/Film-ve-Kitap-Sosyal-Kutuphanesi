@@ -39,30 +39,35 @@ git clone [https://github.com/Furkanaydn44/Film-ve-Kitap-Sosyal-Kutuphanesi.git]
 cd Film-ve-Kitap-Sosyal-Kutuphanesi
 3. Backend Kurulumu ve Çalıştırma (1. Terminal)
 Sunucuyu başlatmak için proje ana dizinindeyken şu komutları sırasıyla uygulayın:
-
-Bash
+```
+```bash
 
 cd backend
 npm install
+```
 Gerekli paketler yüklendikten sonra sunucuyu geliştirici modunda başlatın:
 
-Bash
+
+```bash
 
 npm run dev
+```
 Önemli Not: Backend sunucusu çalışmaya başladığında terminali kapatmayın. Sunucu bu pencerede çalışmaya devam etmelidir.
 
 4. Frontend Kurulumu ve Çalıştırma (2. Terminal)
 Backend çalışırken, yeni bir terminal penceresi açın ve proje ana dizinine gelerek şu adımları izleyin:
 
-Bash
+```bash
 
 cd client
 npm install
+```
 Arayüzü başlatmak için:
 
-Bash
+```bash
 
 npm run dev
+```
 Bilgi: Terminalde size verilen http://localhost:5173 (veya benzeri) linke tıklayarak projeyi tarayıcınızda görüntüleyebilirsiniz.
 
 ✨ Özellikler
@@ -74,4 +79,4 @@ Bilgi: Terminalde size verilen http://localhost:5173 (veya benzeri) linke tıkla
 
 [x] Puanlama ve Yorumlar
 
-[ ] Sosyal Akış
+[x] Sosyal Akış
