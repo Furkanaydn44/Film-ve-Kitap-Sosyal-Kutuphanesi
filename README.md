@@ -2,7 +2,6 @@
 
 Bu proje, kullanıcıların okudukları kitapları ve izledikleri filmleri/dizileri kaydedebileceği, inceleme yazıp puanlayabileceği ve diğer kullanıcılarla etkileşime geçebileceği web tabanlı bir sosyal platformdur.
 
-
 ## 🚀 Proje Hakkında
 
 Kullanıcılar kendi dijital kütüphanelerini oluşturabilir, içeriklere yorum yapabilir ve ana akış (feed) üzerinden arkadaşlarının aktivitelerini takip edebilirler. Proje, modern web mimarisine uygun olarak **Frontend** ve **Backend** olmak üzere iki ana parçadan oluşmaktadır.
@@ -16,7 +15,7 @@ Kullanıcılar kendi dijital kütüphanelerini oluşturabilir, içeriklere yorum
 
 ### Frontend (İstemci Tarafı)
 * **Kütüphane:** React (Vite ile)
-* **Stil:** CSS 
+* **Stil:** CSS
 * **HTTP İstekleri:** Axios / Fetch
 
 ## 📂 Proje Yapısı
@@ -27,11 +26,16 @@ Proje iki ana klasörden oluşur:
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-Veritabanı Kurulumu: backend/database.sql dosyasındaki SQL komutlarını MySQL veritabanınızda çalıştırarak gerekli tabloları oluşturun.
+Projeyi yerel makinenizde hatasız çalıştırmak için veritabanını kurmalı ve hem backend hem de frontend tarafını **iki ayrı terminalde** ayağa kaldırmalısınız.
 
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+### 1. Veritabanı Kurulumu
+Öncelikle MySQL veritabanınızı hazırlayın:
+* `backend/database.sql` dosyasındaki SQL komutlarını MySQL veritabanınızda çalıştırarak gerekli tabloları oluşturun.
+* `backend` klasörü içinde bir `.env` dosyası oluşturup veritabanı bağlantı bilgilerinizi girmeyi unutmayın.
 
-### 1. Projeyi Klonlayın
+### 2. Projeyi Klonlayın
 ```bash
 git clone [https://github.com/Furkanaydn44/Film-ve-Kitap-Sosyal-Kutuphanesi.git](https://github.com/Furkanaydn44/Film-ve-Kitap-Sosyal-Kutuphanesi.git)
 cd Film-ve-Kitap-Sosyal-Kutuphanesi
+
+
