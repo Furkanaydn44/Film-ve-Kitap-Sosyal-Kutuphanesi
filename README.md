@@ -267,27 +267,6 @@ Backend tarafından sunulan başlıca REST API rotaları:
 
 ---
 
-## 🤝 Katkıda Bulunma
-
-Katkı sağlamak isterseniz adımlar:
-
-1. Projeyi Fork'layın (`Fork` butonuna tıklayın).
-2. Yeni bir özellik dalı oluşturun:
-   ```bash
-   git checkout -b feature/YeniOzellik
-   ```
-3. Değişikliklerinizi commit edin:
-   ```bash
-   git commit -m 'feat: Yeni özellik eklendi'
-   ```
-4. Dalınıza push edin:
-   ```bash
-   git push origin feature/YeniOzellik
-   ```
-5. Bir **Pull Request (PR)** açın.
-
----
-
 ## 📄 Lisans
 
 Bu proje [MIT](LICENSE) lisansı altında korunmaktadır. İstediğiniz gibi geliştirebilir ve kullanabilirsiniz.
