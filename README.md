@@ -293,10 +293,3 @@ Katkı sağlamak isterseniz adımlar:
 Bu proje [MIT](LICENSE) lisansı altında korunmaktadır. İstediğiniz gibi geliştirebilir ve kullanabilirsiniz.
 
 ---
-
-<div align="center">
-
-Geliştirici: **[Furkan Aydın](https://github.com/Furkanaydn44)**  
-⭐ Projeyi beğendiyseniz GitHub üzerinden yıldız vermeyi unutmayın!
-
-</div>
